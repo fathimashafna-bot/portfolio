@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <!-- SEO Meta Tags -->
+  <title>Fathima Shafna | Data Scientist & AI Engineer Portfolio</title>
+  <meta name="description" content="Personal portfolio of Fathima Shafna - Aspiring Data Scientist and AI Engineer passionate about data analytics, machine learning, and intelligent solutions.">
+  <meta name="keywords" content="Fathima Shafna, Data Science, AI Engineer, Machine Learning, Python, Portfolio, Web Development">
+  <meta name="author" content="Fathima Shafna">
+  
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:title" content="Fathima Shafna | Data Scientist & AI Engineer">
+  <meta property="og:description" content="Explore projects, skills, and background in Data Science and Artificial Intelligence.">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon SVG (Inline vector icon for high-tech aesthetic) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%230b0f19'/><text x='50' y='65' font-size='48' font-family='sans-serif' font-weight='900' fill='%23a855f7' text-anchor='middle'>FS</text><circle cx='80' cy='30' r='8' fill='%2300f0ff'/></svg>">
+
+  <!-- Google Fonts: Inter & Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5 CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- Font Awesome 6 CDN for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <!-- Custom Dark Theme Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Accessible Skip to Content Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ==============================================
+       1. NAVIGATION BAR
+       ============================================== -->
+  <header class="header-navbar sticky-top" id="header-nav">
+    <nav class="navbar navbar-expand-lg navbar-dark" aria-label="Main Navigation">
+      <div class="container">
+        <!-- Brand Logo -->
+        <a class="navbar-brand d-flex align-items-center" href="#home" id="brand-logo" aria-label="Fathima Shafna Home">
+          <span class="brand-badge me-2">FS<span class="brand-dot">.</span></span>
+          <span class="brand-text d-none d-sm-inline">FATHIMA SHAFNA</span>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="navbar-toggler custom-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation" id="navbar-toggle-btn">
+          <span class="toggler-icon top-bar"></span>
+          <span class="toggler-icon middle-bar"></span>
+          <span class="toggler-icon bottom-bar"></span>
+        </button>
+
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home" id="nav-home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about" id="nav-about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills" id="nav-skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects" id="nav-projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education" id="nav-education">Experience &amp; Education</a>
+            </li>
+            <li class="nav-item ms-lg-2">
+              <a class="nav-link btn-nav-cta" href="#contact" id="nav-contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Website Content Container -->
+  <main id="main-content">
+
+    <!-- ==============================================
+         2. HERO SECTION
+         ============================================== -->
+    <section class="hero-section position-relative d-flex align-items-center" id="home">
+      <!-- Ambient Background Glows -->
+      <div class="ambient-glow glow-violet" aria-hidden="true"></div>
+      <div class="ambient-glow glow-cyan" aria-hidden="true"></div>
+
+      <div class="container position-relative z-1 py-5">
+        <div class="row align-items-center gy-5">
+          
+          <!-- Hero Text Details -->
+          <div class="col-lg-7 order-2 order-lg-1 text-center text-lg-start">
+            <!-- Status Badge -->
+            <div class="hero-badge-wrapper mb-3 animate-fade-in">
+              <span class="hero-badge">
+                <i class="fa-solid fa-sparkles me-2" aria-hidden="true"></i>
+                Aspiring Data Scientist & AI Engineer
+              </span>
+            </div>
+
+            <!-- Main Heading with Name -->
+            <h1 class="hero-title mb-2 animate-fade-in">
+              <span class="hero-greeting d-block">Hello, I'm</span>
+              <span class="gradient-text text-uppercase">FATHIMA SHAFNA</span>
+            </h1>
+
+            <!-- Professional Subtitle -->
+            <h2 class="hero-subtitle mb-4 animate-fade-in">
+              DATA SCIENTIST &amp; AI ENGINEER
+            </h2>
+
+            <!-- Introduction Paragraph -->
+            <p class="hero-description mb-4 animate-fade-in">
+              I’m an aspiring data scientist and AI engineer passionate about transforming data into meaningful insights and building intelligent solutions that make a difference.
+            </p>
+
+            <!-- Call-To-Action Buttons -->
+            <div class="hero-actions d-flex flex-wrap gap-3 justify-content-center justify-content-lg-start mb-4 animate-fade-in">
+              <a href="#projects" class="btn btn-primary-custom" id="hero-view-work-btn">
+                <span>View My Work</span>
+                <i class="fa-solid fa-arrow-down-long ms-2" aria-hidden="true"></i>
+              </a>
+              <a href="#contact" class="btn btn-outline-custom" id="hero-contact-btn">
+                <span>Contact Me</span>
+                <i class="fa-solid fa-paper-plane ms-2" aria-hidden="true"></i>
+              </a>
+            </div>
+
+            <!-- Social Links (Editable Placeholders) -->
+            <div class="hero-socials d-flex align-items-center justify-content-center justify-content-lg-start gap-3 animate-fade-in">
+              <span class="social-label text-muted-custom me-2">Connect:</span>
+              <!-- GitHub Link (Replace with your actual profile link) -->
+              <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Visit Fathima Shafna's GitHub profile" title="GitHub">
+                <i class="fa-brands fa-github" aria-hidden="true"></i>
+              </a>
+              <!-- LinkedIn Link (Replace with your actual profile link) -->
+              <a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Visit Fathima Shafna's LinkedIn profile" title="LinkedIn">
+                <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+              </a>
+              <!-- Instagram Link (Replace with your actual profile link) -->
+              <a href="https://instagram.com/your-username" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Visit Fathima Shafna's Instagram profile" title="Instagram">
+                <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Hero Visual & Avatar Column -->
+          <div class="col-lg-5 order-1 order-lg-2 text-center">
+            <div class="hero-visual-wrapper position-relative mx-auto">
+              
+              <!-- Outer Rotating Tech Ring -->
+              <div class="tech-orbit-ring" aria-hidden="true"></div>
+
+              <!-- Main Avatar Frame with Graceful Fallback -->
+              <div class="avatar-card glass-panel position-relative">
+                
+                <!-- Primary Image: Gracefully falls back to vector card if missing -->
+                <img src="profile.jpg" alt="Fathima Shafna" class="avatar-img" id="hero-profile-img" onerror="this.style.display='none'; document.getElementById('avatar-fallback').classList.remove('d-none');">
+
+                <!-- Graceful Fallback (Visible by default if profile.jpg is absent) -->
+                <div class="avatar-fallback d-none" id="avatar-fallback">
+                  <div class="avatar-initials-badge">
+                    <span class="initials">FS</span>
+                  </div>
+                  <div class="avatar-tag">
+                    <i class="fa-solid fa-brain me-1" aria-hidden="true"></i> AI &amp; Data
+                  </div>
+                </div>
+
+                <!-- AI / Data Floating Badges (Visual elements suggesting AI & analytics) -->
+                <div class="floating-badge badge-ai" aria-hidden="true">
+                  <div class="badge-icon-box">
+                    <i class="fa-solid fa-microchip"></i>
+                  </div>
+                  <div class="badge-text-box">
+                    <span class="badge-title">AI &amp; ML</span>
+                    <span class="badge-status">In Action</span>
+                  </div>
+                </div>
+
+                <div class="floating-badge badge-analytics" aria-hidden="true">
+                  <div class="badge-icon-box">
+                    <i class="fa-solid fa-chart-pie"></i>
+                  </div>
+                  <div class="badge-text-box">
+                    <span class="badge-title">Insights</span>
+                    <span class="badge-status">Data-Driven</span>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Decorative Tech Terminal Badge -->
+              <div class="tech-snippet-box glass-panel mt-3 d-inline-flex align-items-center gap-2" aria-hidden="true">
+                <span class="terminal-dot green"></span>
+                <code>model = DataPipeline(precision=True)</code>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         3. ABOUT SECTION
+         ============================================== -->
+    <section class="section-padding about-section position-relative" id="about">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header text-center mb-5">
+          <p class="section-subtitle">Get To Know Me</p>
+          <h2 class="section-title">About <span class="gradient-text">Fathima Shafna</span></h2>
+          <div class="title-underline mx-auto"></div>
+        </div>
+
+        <div class="row gy-4 align-items-stretch">
+          
+          <!-- Narrative Column -->
+          <div class="col-lg-7">
+            <div class="about-card glass-panel h-100 p-4 p-md-5">
+              <h3 class="about-headline mb-3">
+                Driven by Curiosity, Grounded in Analytical Logic
+              </h3>
+              
+              <p class="about-text">
+                My journey into technology is fueled by an enduring fascination with <strong>data analysis, machine learning, and artificial intelligence</strong>. With an academic background in <strong>B.Sc. in Computer Science</strong> (grounded in a strong Higher Secondary Science foundation) and <strong>one year of practical internship experience at Softronics</strong>, I bring together solid computational fundamentals and real-world software discipline.
+              </p>
+
+              <p class="about-text">
+                During my 1-year tenure as an intern at Softronics, I honed my ability to collaborate with development teams, tackle technical challenges, and apply programming and database logic to real problems. As an aspiring data scientist and AI engineer, my goal is to design intelligent solutions that simplify complex challenges, automate workflows, and empower data-driven decisions.
+              </p>
+
+              <p class="about-text mb-4">
+                I strongly believe that impactful technology emerges through <strong>continuous learning</strong> and <strong>collaborative development</strong>. Whether analyzing datasets, developing predictive algorithms, or crafting software tools, I thrive when working alongside diverse teams to build solutions that make a positive difference.
+              </p>
+
+              <!-- Values & Strengths Badges -->
+              <div class="d-flex flex-wrap gap-2 pt-2">
+                <span class="tag-pill"><i class="fa-solid fa-briefcase me-1"></i> 1 Year Intern @ Softronics</span>
+                <span class="tag-pill"><i class="fa-solid fa-graduation-cap me-1"></i> B.Sc. Computer Science</span>
+                <span class="tag-pill"><i class="fa-solid fa-lightbulb me-1"></i> Problem-Solving Mindset</span>
+                <span class="tag-pill"><i class="fa-solid fa-users me-1"></i> Team Collaboration</span>
+                <span class="tag-pill"><i class="fa-solid fa-code-branch me-1"></i> Clean Code &amp; Ethics</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Highlight Cards Column -->
+          <div class="col-lg-5">
+            <div class="d-flex flex-column gap-3 h-100 justify-content-between">
+              
+              <!-- Focus Area 1: Data Analytics -->
+              <div class="highlight-item glass-panel p-4">
+                <div class="highlight-icon-wrapper mb-3">
+                  <i class="fa-solid fa-chart-line text-cyan" aria-hidden="true"></i>
+                </div>
+                <h4 class="highlight-title">Data Analysis &amp; Visualization</h4>
+                <p class="highlight-desc mb-0">
+                  Passionate about cleansing datasets, identifying hidden patterns, and building clear visual narratives that guide strategic decisions.
+                </p>
+              </div>
+
+              <!-- Focus Area 2: Machine Learning -->
+              <div class="highlight-item glass-panel p-4">
+                <div class="highlight-icon-wrapper mb-3">
+                  <i class="fa-solid fa-brain text-violet" aria-hidden="true"></i>
+                </div>
+                <h4 class="highlight-title">Applied Machine Learning</h4>
+                <p class="highlight-desc mb-0">
+                  Exploring predictive models, computer vision concepts, and algorithmic solutions designed for practical, real-world accessibility.
+                </p>
+              </div>
+
+              <!-- Focus Area 3: Modern Engineering -->
+              <div class="highlight-item glass-panel p-4">
+                <div class="highlight-icon-wrapper mb-3">
+                  <i class="fa-solid fa-laptop-code text-cyan" aria-hidden="true"></i>
+                </div>
+                <h4 class="highlight-title">Software Development Foundations</h4>
+                <p class="highlight-desc mb-0">
+                  Combining robust Python backends with responsive web frontends (HTML5, CSS3, JS, Bootstrap) and modern version control.
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         4. SKILLS SECTION
+         ============================================== -->
+    <section class="section-padding skills-section position-relative" id="skills">
+      <!-- Background Ambient Glow -->
+      <div class="ambient-glow glow-violet-right" aria-hidden="true"></div>
+
+      <div class="container position-relative z-1">
+        <!-- Section Header -->
+        <div class="section-header text-center mb-4">
+          <p class="section-subtitle">Technical Competencies</p>
+          <h2 class="section-title">My <span class="gradient-text">Skills</span> &amp; Toolkit</h2>
+          <div class="title-underline mx-auto"></div>
+          <p class="section-note mt-3 mx-auto text-muted-custom">
+            Competencies cultivated through coursework, self-driven exploration, and hands-on coding projects. Transparently organized without arbitrary percentages.
+          </p>
+        </div>
+
+        <!-- Skills Grid: 10 Core Required Skills -->
+        <div class="row g-3 g-md-4 mt-2">
+          
+          <!-- 1. Python -->
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="skill-card glass-panel h-100 p-3 p-md-4 text-center">
+              <div class="skill-icon-box python-icon mx-auto mb-3">
+                <i class="fa-brands fa-python" aria-hidden="true"></i>
+              </div>
+              <h3 class="skill-name">Python</h3>
+              <span class="skill-category-badge">Core Language</span>
+              <p class="skill-detail mt-2 mb-0">Data pipelines, scripting, ML modeling &amp; automation.</p>
+            </div>
+          </div>
+
+          <!-- 2. Machine Learning -->
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="skill-card glass-panel h-100 p-3 p-md-4 text-center">
+              <div class="skill-icon-box ml-icon mx-auto mb-3">
+                <i class="fa-solid fa-network-wired" aria-hidden="true"></i>
+              </div>
+              <h3 class="skill-name">Machine Learning</h3>
+              <span class="skill-category-badge">AI Specialty</span>
+              <p class="skill-detail mt-2 mb-0">Supervised learning, model evaluation &amp; classification.</p>
+            </div>
+          </div>
+
+          <!-- 3. Artificial Intelligence -->
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="skill-card glass-panel h-100 p-3 p-md-4 text-center">
+              <div class="skill-icon-box ai-icon mx-auto mb-3">
+                <i class="fa-solid fa-brain" aria-hidden="true"></i>
+              </div>
+              <h3 class="skill-name">Artificial Intelligence</h3>
+              <span class="skill-category-badge">AI Specialty</span>
+              <p class="skill-detail mt-2 mb-0">Intelligent system concepts, computer vision &amp; logic.</p>
+            </div>
+          </div>
+
+          <!-- 4. Data Analysis -->
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="skill-card glass-panel h-100 p-3 p-md-4 text-center">
+              <div class="skill-icon-box analysis-icon mx-auto mb-3">
+                <i class="fa-solid fa-chart-column" aria-hidden="true"></i>
+              </div>
+              <h3 class="skill-name">Data Analysis</h3>
+              <span class="skill-category-badge">Analytics</span>
+              <p class="skill-detail mt-2 mb-0">Exploratory data analysis, insights discovery &amp; reporting.</p>
+            </div>
+          </div>
+
+          <!-- 5. HTML5 -->
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="skill-card glass-panel h-100 p-3 p-md-4 text-center">
+              <div class="skill-icon-box html-icon mx-auto mb-3">
+                <i class="fa-brands fa-html5" aria-hidden="true"></i>
+              </div>
+              <h3 class="skill-name">HTML5</h3>
+              <span class="skill-category-badge">Web Frontend</span>
+              <p class="skill-detail mt-2 mb-0">Semantic document structure, web standards &amp; accessibility.</p>
+            </div>
+          </div>
+
+          <!-- 6. CSS3 -->
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="skill-card glass-panel h-100 p-3 p-md-4 text-center">
+              <div class="skill-icon-box css-icon mx-auto mb-3">
+                <i class="fa-brands fa-css3-alt" aria-hidden="true"></i>
+              </div>
+              <h3 class="skill-name">CSS3</h3>
+              <span class="skill-category-badge">Web Frontend</span>
+              <p class="skill-detail mt-2 mb-0">Modern styling, flexbox/grid, animations &amp; dark themes.</p>
+            </div>
+          </div>
+
+          <!-- 7. JavaScript -->
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="skill-card glass-panel h-100 p-3 p-md-4 text-center">
+              <div class="skill-icon-box js-icon mx-auto mb-3">
+                <i class="fa-brands fa-js" aria-hidden="true"></i>
+              </div>
+              <h3 class="skill-name">JavaScript</h3>
+              <span class="skill-category-badge">Web Logic</span>
+              <p class="skill-detail mt-2 mb-0">Vanilla DOM manipulation, event handling &amp; client validation.</p>
+            </div>
+          </div>
+
+          <!-- 8. Bootstrap 5 -->
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="skill-card glass-panel h-100 p-3 p-md-4 text-center">
+              <div class="skill-icon-box bootstrap-icon mx-auto mb-3">
+                <i class="fa-brands fa-bootstrap" aria-hidden="true"></i>
+              </div>
+              <h3 class="skill-name">Bootstrap 5</h3>
+              <span class="skill-category-badge">Framework</span>
+              <p class="skill-detail mt-2 mb-0">Responsive layouts, mobile-first grid &amp; UI components.</p>
+            </div>
+          </div>
+
+          <!-- 9. Flutter -->
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="skill-card glass-panel h-100 p-3 p-md-4 text-center">
+              <div class="skill-icon-box flutter-icon mx-auto mb-3">
+                <i class="fa-solid fa-mobile-screen-button" aria-hidden="true"></i>
+              </div>
+              <h3 class="skill-name">Flutter</h3>
+              <span class="skill-category-badge">Cross-Platform</span>
+              <p class="skill-detail mt-2 mb-0">Mobile UI prototyping, reactive widgets &amp; cross-platform app concepts.</p>
+            </div>
+          </div>
+
+          <!-- 10. Git -->
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="skill-card glass-panel h-100 p-3 p-md-4 text-center">
+              <div class="skill-icon-box git-icon mx-auto mb-3">
+                <i class="fa-brands fa-git-alt" aria-hidden="true"></i>
+              </div>
+              <h3 class="skill-name">Git</h3>
+              <span class="skill-category-badge">Version Control</span>
+              <p class="skill-detail mt-2 mb-0">Source code tracking, branching, commits &amp; GitHub workflow.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         5. PROJECTS SECTION
+         ============================================== -->
+    <section class="section-padding projects-section position-relative" id="projects">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header text-center mb-5">
+          <p class="section-subtitle">Featured Work</p>
+          <h2 class="section-title">Academic &amp; Concept <span class="gradient-text">Projects</span></h2>
+          <div class="title-underline mx-auto"></div>
+          <p class="section-note mt-3 mx-auto text-muted-custom">
+            Conceptual frameworks, prototype architectures, and exploratory data projects. Clearly marked to accurately represent their experimental nature.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          
+          <!-- PROJECT A: Sign Language Social Communication Tool -->
+          <div class="col-lg-4 col-md-6">
+            <div class="project-card glass-panel h-100 d-flex flex-column">
+              <!-- Visual Header / Graphic Mockup -->
+              <div class="project-card-header project-graphic-a position-relative overflow-hidden">
+                <div class="project-badge-type">Concept Prototype</div>
+                <div class="project-illustration text-center py-4">
+                  <div class="project-icon-circle mx-auto mb-2">
+                    <i class="fa-solid fa-hands-asl-interpreting" aria-hidden="true"></i>
+                  </div>
+                  <div class="graphic-chip">
+                    <i class="fa-solid fa-camera me-1"></i> CV Gesture Tracking
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project Body -->
+              <div class="project-card-body p-4 d-flex flex-column flex-grow-1">
+                <h3 class="project-title mb-2">Sign Language Social Communication Tool</h3>
+                
+                <p class="project-desc text-muted-custom flex-grow-1">
+                  A concept for helping people communicate through sign-language recognition and accessible digital interactions. Explores gesture detection pipelines that translate sign movements into text outputs.
+                </p>
+
+                <!-- Technologies Used -->
+                <div class="project-tech-stack mb-4">
+                  <span class="tech-badge">Python</span>
+                  <span class="tech-badge">Computer Vision</span>
+                  <span class="tech-badge">Machine Learning</span>
+                </div>
+
+                <!-- Card Actions -->
+                <div class="project-actions mt-auto pt-2 border-top-custom">
+                  <!-- Editable placeholder GitHub URL -->
+                  <a href="https://github.com/your-username/sign-language-social-tool" target="_blank" rel="noopener noreferrer" class="btn btn-project-action w-100" aria-label="View Sign Language Social Communication Tool on GitHub">
+                    <i class="fa-brands fa-github me-2" aria-hidden="true"></i>
+                    <span>GitHub Repository</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square ms-auto small-icon" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT B: College Library Record Tracker -->
+          <div class="col-lg-4 col-md-6">
+            <div class="project-card glass-panel h-100 d-flex flex-column">
+              <!-- Visual Header / Graphic Mockup -->
+              <div class="project-card-header project-graphic-b position-relative overflow-hidden">
+                <div class="project-badge-type">System Concept</div>
+                <div class="project-illustration text-center py-4">
+                  <div class="project-icon-circle mx-auto mb-2">
+                    <i class="fa-solid fa-book-bookmark" aria-hidden="true"></i>
+                  </div>
+                  <div class="graphic-chip">
+                    <i class="fa-solid fa-database me-1"></i> Relational Cataloging
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project Body -->
+              <div class="project-card-body p-4 d-flex flex-column flex-grow-1">
+                <h3 class="project-title mb-2">College Library Record Tracker</h3>
+                
+                <p class="project-desc text-muted-custom flex-grow-1">
+                  A system concept for tracking library books, borrower records, availability, and borrowing history. Designed to optimize catalog lookups and streamline student record management.
+                </p>
+
+                <!-- Technologies Used -->
+                <div class="project-tech-stack mb-4">
+                  <span class="tech-badge">Python</span>
+                  <span class="tech-badge">SQL</span>
+                  <span class="tech-badge">HTML</span>
+                  <span class="tech-badge">CSS</span>
+                </div>
+
+                <!-- Card Actions -->
+                <div class="project-actions mt-auto pt-2 border-top-custom">
+                  <!-- Editable placeholder GitHub URL -->
+                  <a href="https://github.com/your-username/college-library-tracker" target="_blank" rel="noopener noreferrer" class="btn btn-project-action w-100" aria-label="View College Library Record Tracker on GitHub">
+                    <i class="fa-brands fa-github me-2" aria-hidden="true"></i>
+                    <span>GitHub Repository</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square ms-auto small-icon" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT C: Data Insights Dashboard -->
+          <div class="col-lg-4 col-md-6 mx-auto">
+            <div class="project-card glass-panel h-100 d-flex flex-column">
+              <!-- Visual Header / Graphic Mockup -->
+              <div class="project-card-header project-graphic-c position-relative overflow-hidden">
+                <div class="project-badge-type">Sample Analytics</div>
+                <div class="project-illustration text-center py-4">
+                  <div class="project-icon-circle mx-auto mb-2">
+                    <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
+                  </div>
+                  <div class="graphic-chip">
+                    <i class="fa-solid fa-chart-simple me-1"></i> Exploratory Data Analysis
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project Body -->
+              <div class="project-card-body p-4 d-flex flex-column flex-grow-1">
+                <h3 class="project-title mb-2">Data Insights Dashboard</h3>
+                
+                <p class="project-desc text-muted-custom flex-grow-1">
+                  A sample analytics project for exploring datasets, identifying trends, and visualizing useful insights. Demonstrates statistical summaries, correlation heatmaps, and distribution plotting.
+                </p>
+
+                <!-- Technologies Used -->
+                <div class="project-tech-stack mb-4">
+                  <span class="tech-badge">Python</span>
+                  <span class="tech-badge">Pandas</span>
+                  <span class="tech-badge">Matplotlib</span>
+                </div>
+
+                <!-- Card Actions -->
+                <div class="project-actions mt-auto pt-2 border-top-custom">
+                  <!-- Editable placeholder Demo / GitHub URL -->
+                  <a href="https://github.com/your-username/data-insights-dashboard" target="_blank" rel="noopener noreferrer" class="btn btn-project-action w-100" aria-label="View Data Insights Dashboard on GitHub or Demo">
+                    <i class="fa-solid fa-laptop-code me-2" aria-hidden="true"></i>
+                    <span>Explore Code &amp; Demo</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square ms-auto small-icon" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         6. EDUCATION SECTION
+         ============================================== -->
+    <section class="section-padding education-section position-relative" id="education">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header text-center mb-5">
+          <p class="section-subtitle">Academic &amp; Professional Journey</p>
+          <h2 class="section-title">Experience &amp; <span class="gradient-text">Education</span></h2>
+          <div class="title-underline mx-auto"></div>
+          <p class="section-note mt-3 mx-auto text-muted-custom">
+            A combined timeline of hands-on industry experience, formal Computer Science degree education, and foundational science studies.
+          </p>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+            
+            <div class="education-timeline position-relative">
+              
+              <!-- Timeline Item 1: Industry Internship at Softronics -->
+              <div class="timeline-item position-relative mb-5">
+                <div class="timeline-marker marker-experience" aria-hidden="true">
+                  <i class="fa-solid fa-briefcase"></i>
+                </div>
+                <div class="timeline-content glass-panel p-4 p-md-5">
+                  <div class="d-flex flex-wrap justify-content-between align-items-start gap-2 mb-2">
+                    <div>
+                      <h3 class="education-degree mb-1">Software / Technical Intern</h3>
+                      <h4 class="education-institution text-cyan mb-0">
+                        <i class="fa-solid fa-building me-2"></i>Softronics
+                      </h4>
+                    </div>
+                    <span class="education-period-badge badge-experience">
+                      <i class="fa-regular fa-calendar-days me-1"></i> 1 Year Internship
+                    </span>
+                  </div>
+
+                  <p class="education-overview text-muted-custom mt-3 mb-3">
+                    Completed a comprehensive 1-year internship at <strong>Softronics</strong>, gaining practical industry experience in software development workflows, algorithmic implementation, and collaborative team problem-solving.
+                  </p>
+
+                  <div class="coursework-box p-3 rounded-3">
+                    <h5 class="coursework-title mb-2">
+                      <i class="fa-solid fa-list-check me-2 text-violet"></i>Key Responsibilities &amp; Exposure:
+                    </h5>
+                    <ul class="coursework-list mb-0">
+                      <li>Hands-on software development, debugging, and code optimization using modern programming tools.</li>
+                      <li>Collaborated with technical mentors and team members on live system concepts and feature implementations.</li>
+                      <li>Applied relational database structures and backend logic to practical application requirements.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Timeline Item 2: B.Sc. in Computer Science -->
+              <div class="timeline-item position-relative mb-5">
+                <div class="timeline-marker" aria-hidden="true">
+                  <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <div class="timeline-content glass-panel p-4 p-md-5">
+                  <div class="d-flex flex-wrap justify-content-between align-items-start gap-2 mb-2">
+                    <div>
+                      <h3 class="education-degree mb-1">B.Sc. in Computer Science</h3>
+                      <h4 class="education-institution text-cyan mb-0">
+                        <i class="fa-solid fa-building-columns me-2"></i>[Your College / University Name Placeholder]
+                      </h4>
+                    </div>
+                    <span class="education-period-badge">
+                      <i class="fa-regular fa-calendar-days me-1"></i> Bachelor's Degree
+                    </span>
+                  </div>
+
+                  <p class="education-overview text-muted-custom mt-3 mb-3">
+                    Undergraduate study in <strong>Computer Science</strong>, focusing on core computing theories, data structures, algorithms, mathematical models, and foundational machine learning principles.
+                  </p>
+
+                  <!-- Coursework / Academic Highlights -->
+                  <div class="coursework-box p-3 rounded-3">
+                    <h5 class="coursework-title mb-2">
+                      <i class="fa-solid fa-book-open me-2 text-violet"></i>Key Academic Coursework:
+                    </h5>
+                    <ul class="coursework-list mb-0">
+                      <li>Data Structures &amp; Algorithms (DSA)</li>
+                      <li>Object-Oriented Programming (Python &amp; Modern Languages)</li>
+                      <li>Database Management Systems (SQL &amp; Relational Modeling)</li>
+                      <li>Foundations of Artificial Intelligence &amp; Data Analytics</li>
+                      <li>Operating Systems, Computer Networks &amp; Software Engineering</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Timeline Item 3: Higher Secondary / Science Stream -->
+              <div class="timeline-item position-relative">
+                <div class="timeline-marker" aria-hidden="true">
+                  <i class="fa-solid fa-school"></i>
+                </div>
+                <div class="timeline-content glass-panel p-4 p-md-5">
+                  <div class="d-flex flex-wrap justify-content-between align-items-start gap-2 mb-2">
+                    <div>
+                      <h3 class="education-degree mb-1">Higher Secondary Education (Science Stream)</h3>
+                      <h4 class="education-institution text-cyan mb-0">
+                        <i class="fa-solid fa-building-columns me-2"></i>[Your School / Higher Secondary Institution Placeholder]
+                      </h4>
+                    </div>
+                    <span class="education-period-badge">
+                      <i class="fa-regular fa-calendar-days me-1"></i> Completed
+                    </span>
+                  </div>
+
+                  <p class="education-overview text-muted-custom mt-3 mb-3">
+                    Successfully finished higher secondary education in the <strong>Science Stream</strong>, establishing strong analytical, mathematical, and scientific fundamentals.
+                  </p>
+
+                  <div class="coursework-box p-3 rounded-3">
+                    <h5 class="coursework-title mb-2">
+                      <i class="fa-solid fa-atom me-2 text-violet"></i>Academic Foundation:
+                    </h5>
+                    <p class="mb-0 text-muted-custom small">
+                      Comprehensive focus in Mathematics, Physics, Chemistry, and Computer Science, fostering logical thinking and quantitative aptitude.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         7. CONTACT SECTION
+         ============================================== -->
+    <section class="section-padding contact-section position-relative" id="contact">
+      <!-- Background Ambient Glow -->
+      <div class="ambient-glow glow-cyan-left" aria-hidden="true"></div>
+
+      <div class="container position-relative z-1">
+        <!-- Section Header -->
+        <div class="section-header text-center mb-5">
+          <p class="section-subtitle">Let's Connect</p>
+          <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+          <div class="title-underline mx-auto"></div>
+          <p class="section-note mt-3 mx-auto text-muted-custom">
+            Have a question, collaboration idea, or an opportunity? Reach out via direct email or submit a message through the front-end form below.
+          </p>
+        </div>
+
+        <div class="row gy-5">
+          
+          <!-- Contact Info Column -->
+          <div class="col-lg-5">
+            <div class="contact-info-panel glass-panel p-4 p-md-5 h-100">
+              <h3 class="info-panel-title mb-3">Contact Information</h3>
+              <p class="info-panel-desc text-muted-custom mb-4">
+                I am actively seeking internships, collaborative projects, and opportunities to apply data science and machine learning. Feel free to connect!
+              </p>
+
+              <!-- Direct Email Link -->
+              <div class="contact-info-item d-flex align-items-center mb-4">
+                <div class="info-icon-box me-3">
+                  <i class="fa-solid fa-envelope text-cyan" aria-hidden="true"></i>
+                </div>
+                <div>
+                  <span class="info-label text-muted-custom d-block">Direct Email</span>
+                  <!-- Replace with actual email address -->
+                  <a href="mailto:fathimashafna.placeholder@example.com" class="info-link" id="contact-email-link">
+                    fathimashafna.placeholder@example.com
+                  </a>
+                </div>
+              </div>
+
+              <!-- Location Info -->
+              <div class="contact-info-item d-flex align-items-center mb-4">
+                <div class="info-icon-box me-3">
+                  <i class="fa-solid fa-location-dot text-violet" aria-hidden="true"></i>
+                </div>
+                <div>
+                  <span class="info-label text-muted-custom d-block">Location</span>
+                  <span class="info-text">India (Open to Remote &amp; Relocation)</span>
+                </div>
+              </div>
+
+              <!-- Social Channels -->
+              <div class="pt-3 border-top-custom">
+                <span class="info-label text-muted-custom d-block mb-3">Find Me On Social Media:</span>
+                <div class="d-flex gap-2">
+                  <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Visit Fathima Shafna on GitHub">
+                    <i class="fa-brands fa-github" aria-hidden="true"></i>
+                  </a>
+                  <a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Visit Fathima Shafna on LinkedIn">
+                    <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+                  </a>
+                  <a href="https://instagram.com/your-username" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Visit Fathima Shafna on Instagram">
+                    <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Front-end Notice Callout -->
+              <div class="contact-notice-box mt-4 p-3 rounded-3">
+                <div class="d-flex align-items-start gap-2">
+                  <i class="fa-solid fa-circle-info text-cyan mt-1" aria-hidden="true"></i>
+                  <p class="small text-muted-custom mb-0">
+                    <strong>Note:</strong> The form on the right is a client-side interface demonstration. To receive actual submissions in your inbox, integrate with a form service like <em>Formspree</em> or <em>EmailJS</em>.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Contact Form Column -->
+          <div class="col-lg-7">
+            <div class="contact-form-panel glass-panel p-4 p-md-5">
+              
+              <!-- Form Status Banner (Polite Live Region for Screen Readers) -->
+              <div id="form-status-alert" class="alert d-none mb-4" role="status" aria-live="polite"></div>
+
+              <form id="portfolio-contact-form" novalidate>
+                
+                <!-- Name Field -->
+                <div class="mb-4">
+                  <label for="contact-name" class="form-label">
+                    Your Name <span class="required-indicator" aria-hidden="true">*</span>
+                  </label>
+                  <div class="input-group-custom">
+                    <span class="input-icon" aria-hidden="true"><i class="fa-solid fa-user"></i></span>
+                    <input type="text" class="form-control custom-input" id="contact-name" name="name" placeholder="e.g. Alex Morgan" required minlength="2" aria-describedby="name-feedback">
+                  </div>
+                  <div id="name-feedback" class="invalid-feedback d-none">
+                    Please provide your name (at least 2 characters).
+                  </div>
+                </div>
+
+                <!-- Email Field -->
+                <div class="mb-4">
+                  <label for="contact-email" class="form-label">
+                    Email Address <span class="required-indicator" aria-hidden="true">*</span>
+                  </label>
+                  <div class="input-group-custom">
+                    <span class="input-icon" aria-hidden="true"><i class="fa-solid fa-envelope"></i></span>
+                    <input type="email" class="form-control custom-input" id="contact-email" name="email" placeholder="e.g. alex@example.com" required aria-describedby="email-feedback">
+                  </div>
+                  <div id="email-feedback" class="invalid-feedback d-none">
+                    Please provide a valid email address (e.g., name@example.com).
+                  </div>
+                </div>
+
+                <!-- Message Field -->
+                <div class="mb-4">
+                  <label for="contact-message" class="form-label">
+                    Message <span class="required-indicator" aria-hidden="true">*</span>
+                  </label>
+                  <div class="input-group-custom textarea-group">
+                    <span class="input-icon" aria-hidden="true"><i class="fa-solid fa-message"></i></span>
+                    <textarea class="form-control custom-input custom-textarea" id="contact-message" name="message" rows="5" placeholder="Share your message, project idea, or inquiry here..." required minlength="10" aria-describedby="message-feedback"></textarea>
+                  </div>
+                  <div id="message-feedback" class="invalid-feedback d-none">
+                    Please enter a message of at least 10 characters.
+                  </div>
+                </div>
+
+                <!-- Backend Limitation Notice -->
+                <p class="form-limitation-text text-muted-custom small mb-4">
+                  <i class="fa-solid fa-shield-halved me-1 text-violet" aria-hidden="true"></i>
+                  Front-end client validation enabled. Message will validate locally without transmitting external data.
+                </p>
+
+                <!-- Submit Button -->
+                <button type="submit" class="btn btn-primary-custom w-100 py-3" id="contact-submit-btn">
+                  <span id="btn-submit-text">Send Message</span>
+                  <i class="fa-solid fa-paper-plane ms-2" aria-hidden="true"></i>
+                </button>
+
+              </form>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==============================================
+       8. FOOTER
+       ============================================== -->
+  <footer class="site-footer py-5 border-top-custom">
+    <div class="container">
+      <div class="row gy-4 align-items-center">
+        
+        <!-- Brand & Description -->
+        <div class="col-md-5 text-center text-md-start">
+          <a class="footer-brand d-inline-flex align-items-center mb-2" href="#home" aria-label="Back to home">
+            <span class="brand-badge me-2">FS<span class="brand-dot">.</span></span>
+            <span class="brand-text">FATHIMA SHAFNA</span>
+          </a>
+          <p class="footer-desc text-muted-custom mb-0 small">
+            Aspiring Data Scientist &amp; AI Engineer building intelligent solutions and uncovering insights.
+          </p>
+        </div>
+
+        <!-- Social Links -->
+        <div class="col-md-4 text-center">
+          <div class="footer-socials d-flex justify-content-center gap-3">
+            <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitHub">
+              <i class="fa-brands fa-github" aria-hidden="true"></i>
+            </a>
+            <a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+            </a>
+            <a href="https://instagram.com/your-username" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Instagram">
+              <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Back-to-Top Button -->
+        <div class="col-md-3 text-center text-md-end">
+          <a href="#home" class="btn-back-to-top d-inline-flex align-items-center gap-2" id="back-to-top-btn" aria-label="Back to top of page">
+            <span>Back to Top</span>
+            <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Copyright Sub-footer -->
+      <div class="footer-bottom mt-4 pt-4 text-center text-muted-custom small">
+        <p class="mb-0">
+          &copy; <span id="current-year">2026</span> FATHIMA SHAFNA. All rights reserved. Crafted with clean HTML5, CSS3 &amp; Vanilla JavaScript.
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 Bundle JS CDN (includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <!-- Custom Vanilla JavaScript File -->
+  <script src="script.js"></script>
+
+</body>
+</html>
